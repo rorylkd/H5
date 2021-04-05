@@ -1,13 +1,9 @@
 today = moment();
-console.log(
-   today.format("dddd Do MMMM YYYY"));
 
-var currentDate = today.format("dddd MMMM Do"); // Created variable to store the current date, created variable to select element based on currentDay ID, the wrote the currentDate var to that element
+// Created variable to store the current date, created variable to select element based on currentDay ID, the wrote the currentDate var to that element
+var currentDate = today.format("dddd MMMM Do"); 
 const DateEl = document.getElementById("currentDay");
 DateEl.innerHTML = "<p>"+ currentDate +"</p>"
-
-console.log(today.format("hA")); // Getting hour from moment.js
-
 // Element selectors
 
 var currentHour = today.format("hA");
@@ -22,7 +18,9 @@ var threeEl = document.getElementById("3pm");
 var fourEl = document.getElementById("4pm");
 var fiveEl = document.getElementById("5pm");
 
-if(currentHour === "9AM"){  //A very long-winded way of getting the background colors to change depending on the time of day.
+//A very long-winded way of getting the background colors to change depending on the time of day.
+
+if(currentHour === "9AM"){  
     nineEl.style.backgroundColor = "#ff6961";
     tenEl.style.backgroundColor = "#77dd77";
     elevenEl.style.backgroundColor = "#77dd77";
@@ -187,7 +185,7 @@ else if(currentHour === "11PM"){
     fourEl.style.backgroundColor = "#d3d3d3";
     fiveEl.style.backgroundColor = "#d3d3d3";
 }
-else { //Edgecase #2: hours earlier than 9am
+else { 
     nineEl.style.backgroundColor = "#ff6961";
     tenEl.style.backgroundColor = "#ff6961";
     elevenEl.style.backgroundColor = "#ff6961";
@@ -202,7 +200,12 @@ else { //Edgecase #2: hours earlier than 9am
 
 
 
-function saveText9am() { // Function to save text in the textarea element.
+
+
+
+// Functions to save text in the textarea elements.
+
+function saveText9am() { 
     var myText9am = document.getElementById("9am").value;
     localStorage.setItem("myText9am", myText9am);
     console.log("Does this still work?");
@@ -265,12 +268,40 @@ function saveText5pm() {
 
 }
 
-function loadText9am() {
+
+
+
+
+// Function to load text to page
+
+
+function loadText() {
     var myText9am = localStorage.getItem("myText9am");
+    var myText10am = localStorage.getItem("myText10am");
+    var myText11am = localStorage.getItem("myText11am");
+    var myText12pm = localStorage.getItem("myText12pm");
+    var myText1pm = localStorage.getItem("myText1pm");
+    var myText2pm = localStorage.getItem("myText2pm");
+    var myText3pm = localStorage.getItem("myText3pm");
+    var myText4pm = localStorage.getItem("myText4pm");
+    var myText5pm = localStorage.getItem("myText5pm");
+    
+    
     document.getElementById("9am").value = myText9am;
+    document.getElementById("10am").value = myText10am;
+    document.getElementById("11am").value = myText11am;
+    document.getElementById("12pm").value = myText12pm;
+    document.getElementById("1pm").value = myText1pm;
+    document.getElementById("2pm").value = myText2pm;
+    document.getElementById("3pm").value = myText3pm;
+    document.getElementById("4pm").value = myText4pm;
+    document.getElementById("5pm").value = myText5pm;
 }
 
-document.getElementById("saveBtn1").addEventListener("click", saveText9am); // Event listeners for each individual button.
+
+// Event listeners for each individual button.
+
+document.getElementById("saveBtn1").addEventListener("click", saveText9am); 
 document.getElementById("saveBtn2").addEventListener("click", saveText10am);
 document.getElementById("saveBtn3").addEventListener("click", saveText11am);
 document.getElementById("saveBtn4").addEventListener("click", saveText12pm);
