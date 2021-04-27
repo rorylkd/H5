@@ -36,4 +36,4 @@ Screenshot #2:
 
 ## Collaborators
 
-- Project template provided by @coding-boot-camp ![Coding Bootcamp repository](https://github.com/coding-boot-camp)
+- Project template provided by @coding-boot-camp (https://github.com/coding-boot-camp)
