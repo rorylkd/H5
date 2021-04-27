@@ -5,9 +5,10 @@
 This application helps you organize your work day. Type into the text boxes and click the save icon and the text is saved. The colors change depending on the hour, and the current date is given at the top. 
 
 
-## Screenshot
+## Screenshots
 
-Screenshots go here
+WorkDayScheduler\WDSScreenshot1.png
+WorkDayScheduler\WDSScreenshot2.png
 
 
 ## Links
