@@ -29,3 +29,11 @@ Screenshot #2:
 - Moment.js
 - Bootstrap
 - Google Fonts
+
+## License
+
+- MIT
+
+## Collaborators
+
+- Project template provided by @coding-boot-camp ![Coding Bootcamp repository](https://github.com/coding-boot-camp)
