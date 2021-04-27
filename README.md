@@ -7,7 +7,12 @@ This application helps you organize your work day. Type into the text boxes and 
 
 ## Screenshots
 
+Screenshot #1:
+
 ![Screenshot #1:](WDSScreenshot1.png)
+
+Screenshot #2:
+
 ![Screenshot #2](WDSScreenshot2.png)
 
 
