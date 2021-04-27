@@ -23,9 +23,9 @@ Screenshot #2:
 
 ## Technology Used
 
-*HTML
-*Javascript
-*CSS
-*Moment.js
-*Bootstrap
-*Google Fonts
+- HTML
+- Javascript
+- CSS
+- Moment.js
+- Bootstrap
+- Google Fonts
