@@ -7,8 +7,8 @@ This application helps you organize your work day. Type into the text boxes and 
 
 ## Screenshots
 
-WorkDayScheduler\WDSScreenshot1.png
-WorkDayScheduler\WDSScreenshot2.png
+![Screenshot #1:](WDSScreenshot1.png)
+![Screenshot #2](WDSScreenshot2.png)
 
 
 ## Links
